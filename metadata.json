@@ -1,0 +1,5 @@
+{
+  "name": "AutoSeat-Claim-Analyzer",
+  "description": "A React-based analytics dashboard for Automotive QA managers to process field claim data, visualize trends, and perform AI-based classification using ChatGPT.",
+  "requestFramePermissions": []
+}

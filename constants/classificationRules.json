@@ -1,0 +1,168 @@
+{
+  "version": "2024-07-01",
+  "phenomena": [
+    {
+      "code": "heater_failure",
+      "label": "Seat Heater / Thermal",
+      "keywords": ["heater", "heat", "burn", "warm", "temperature"],
+      "synonyms": ["열선", "과열", "온열"],
+      "priority": 90
+    },
+    {
+      "code": "power_motor",
+      "label": "Power Seat / Motor",
+      "keywords": ["power seat", "motor", "recline", "memory seat", "adjust", "move"],
+      "synonyms": ["전동시트", "모터", "각도", "리클라이너"],
+      "priority": 85
+    },
+    {
+      "code": "lumbar_mechanism",
+      "label": "Lumbar Support",
+      "keywords": ["lumbar", "back support"],
+      "synonyms": ["허리지지", "요추"],
+      "priority": 80
+    },
+    {
+      "code": "track_noise",
+      "label": "Seat Track / Noise",
+      "keywords": ["squeak", "squeaking", "noise", "track", "rock"],
+      "synonyms": ["소음", "유격", "레일", "꽉"],
+      "priority": 70
+    },
+    {
+      "code": "latch_fold",
+      "label": "Latch / Folding",
+      "keywords": ["latch", "fold", "lock", "release"],
+      "synonyms": ["폴딩", "잠금", "해제", "고정"],
+      "priority": 60
+    },
+    {
+      "code": "trim_damage",
+      "label": "Trim / Stitch / Tear",
+      "keywords": ["stitch", "tear", "stitching", "rip", "loose", "fabric", "cover", "leather"],
+      "synonyms": ["봉제", "찢어짐", "가죽", "천", "마감"],
+      "priority": 50
+    },
+    {
+      "code": "discoloration",
+      "label": "Discoloration / Stain",
+      "keywords": ["discolor", "stain", "dirty", "soil", "spot"],
+      "synonyms": ["변색", "얼룩", "오염", "때"],
+      "priority": 40
+    },
+    {
+      "code": "other",
+      "label": "Other / Unclassified",
+      "keywords": [],
+      "priority": 0
+    }
+  ],
+  "causes": [
+    {
+      "code": "electrical",
+      "label": "Electrical Control",
+      "keywords": ["heater", "switch", "control", "module", "memory", "sensor"],
+      "synonyms": ["배선", "전기", "스위치", "모듈", "센서"],
+      "priority": 80
+    },
+    {
+      "code": "actuator",
+      "label": "Actuator / Motor",
+      "keywords": ["motor", "gear", "actuator"],
+      "synonyms": ["기어", "모터", "구동"],
+      "priority": 70
+    },
+    {
+      "code": "mechanical",
+      "label": "Mechanical Wear",
+      "keywords": ["track", "squeak", "latch", "loose", "gear"],
+      "synonyms": ["유격", "레일", "가이드", "헐거움"],
+      "priority": 60
+    },
+    {
+      "code": "material",
+      "label": "Material / Trim",
+      "keywords": ["leather", "fabric", "stitch", "tear", "cover"],
+      "synonyms": ["가죽", "천", "봉제", "재질"],
+      "priority": 50
+    },
+    {
+      "code": "assembly",
+      "label": "Assembly / Install",
+      "keywords": ["install", "assembly", "torque"],
+      "synonyms": ["조립", "체결", "토크"],
+      "priority": 40
+    },
+    {
+      "code": "contamination",
+      "label": "External Contamination",
+      "keywords": ["dirty", "oil", "stain"],
+      "synonyms": ["오염", "이물", "기름"],
+      "priority": 30
+    },
+    {
+      "code": "unknown",
+      "label": "Unknown",
+      "keywords": [],
+      "priority": 0
+    }
+  ],
+  "contaminations": [
+    {
+      "code": "oil_grease",
+      "label": "Oil / Grease",
+      "keywords": ["oil", "grease", "lubricant"],
+      "synonyms": ["기름", "윤활유"]
+    },
+    {
+      "code": "water_moisture",
+      "label": "Water / Moisture",
+      "keywords": ["water", "moist", "condensation"],
+      "synonyms": ["물", "습기", "결로"]
+    },
+    {
+      "code": "food_drink",
+      "label": "Food / Drink",
+      "keywords": ["coffee", "drink", "food", "milk"],
+      "synonyms": ["음료", "커피", "음식", "우유"]
+    },
+    {
+      "code": "dye_transfer",
+      "label": "Dye Transfer",
+      "keywords": ["dye", "color transfer", "blue jean"],
+      "synonyms": ["염료", "이염", "청바지"]
+    },
+    {
+      "code": "none",
+      "label": "Not Contamination",
+      "keywords": []
+    }
+  ],
+  "severity": [
+    {
+      "label": "High",
+      "keywords": ["burn", "fire", "injury", "cannot drive", "화상", "화재"],
+      "costThreshold": 300
+    },
+    {
+      "label": "Medium",
+      "keywords": ["stuck", "failure", "broken", "no movement", "고장", "작동불가"],
+      "costThreshold": 100
+    },
+    {
+      "label": "Low"
+    }
+  ],
+  "flags": [
+    {
+      "id": "safety",
+      "label": "Safety Risk",
+      "keywords": ["burn", "fire", "shock", "화상", "화재"]
+    },
+    {
+      "id": "repeat",
+      "label": "Repeat Repair",
+      "keywords": ["again", "repeat", "재발", "재수리"]
+    }
+  ]
+}

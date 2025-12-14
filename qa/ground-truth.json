@@ -1,0 +1,10 @@
+{
+  "QA001": { "phenomenon": "Seat Heater / Thermal", "severity": "High" },
+  "QA002": { "phenomenon": "Power Seat / Motor", "severity": "High" },
+  "QA003": { "phenomenon": "Latch / Folding", "severity": "Medium" },
+  "QA004": { "phenomenon": "Trim / Stitch / Tear", "severity": "Low" },
+  "QA005": { "phenomenon": "Other / Unclassified", "severity": "Low" },
+  "QA006": { "phenomenon": "Discoloration / Stain", "severity": "Low" },
+  "QA007": { "phenomenon": "Lumbar Support", "severity": "Medium" },
+  "QA008": { "phenomenon": "Seat Track / Noise", "severity": "Low" }
+}

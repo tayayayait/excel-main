@@ -1,0 +1,9 @@
+Claim ID,Incident Date,Vehicle Model,Issue Description,Part Name,Repair Cost
+QA001,2023-09-01,Sentra,Seat heater overheating causing burning smell,Seat Heater,250
+QA002,2023-09-03,Altima,Passenger seat motor stuck cannot move forward,Seat Motor,320
+QA003,2023-09-05,Rogue,Rear seat latch not locking cargo floor,Latch Assembly,80
+QA004,2023-09-07,Pathfinder,Leather stitching opened near side bolster,Seat Cover,150
+QA005,2023-09-08,Rogue,Unknown noise in cabin when turning,Unknown,0
+QA006,2023-09-09,Sentra,Water stain on seat cushion,Seat Foam,60
+QA007,2023-09-11,Altima,Driver lumbar support not responding,Lumbar Mechanism,210
+QA008,2023-09-12,Sentra,Seat squeak from track when braking,Seat Track,0

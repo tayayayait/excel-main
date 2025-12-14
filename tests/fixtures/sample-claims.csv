@@ -1,0 +1,3 @@
+Claim ID,Incident Date,Vehicle Model,Issue Description,Part Name,Repair Cost
+TST001,2024-01-05,ModelA,Seat heater burn smell,Seat Heater,250
+TST002,2024-01-10,ModelB,Power motor stuck when reclining,Seat Motor,320
